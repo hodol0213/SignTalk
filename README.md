@@ -8,7 +8,7 @@
 
 ## 👥 팀명
 
-**SignLanguageTalk**
+**SignTalk**
 
 ## 🧑‍💻 팀원
 
@@ -204,17 +204,21 @@ newgrp docker
 ```bash
 git clone https://github.com/hellojiyeon00/SignTalk.git
 cd SignTalk
+
+### 구글 드라이브에서 모델 가중치 다운로드 후 assets 폴더를 model_server 폴더에 이동
+https://drive.google.com/drive/folders/1YHdBaJHzEvo4x9Ne7ruNw1hyPXoDajaW?usp=sharing
+
 ```
 
 ---
 
 ### ⚡ 빠른 시작 (STEP 2~6 자동화)
 
-> **처음 실행하는 경우 아래 명령어 하나로 STEP 2~5를 자동으로 처리합니다.**  
+> **처음 실행하는 경우 아래 명령어 하나로 STEP 2~6을 자동으로 처리합니다.**  
 > `.env` 설정 → SSL 인증서 생성 → 이미지 빌드 → 전체 서비스 기동
 
 ```bash
-bash setup.sh
+sudo bash setup.sh
 ```
 
 > - `.env`가 없으면 `.env.example`을 복사하고 스크립트가 중단됩니다.  
